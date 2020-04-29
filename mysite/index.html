@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Templats is Working</title>
+</head>
+<body>
+<h1>Enter your details below:-  </h1>
+<br>
+<style>
+    h1{
+    margin-left : 40px;
+    color: red;
+    background : purple;
+    }
+</style>
+<form action = '/userform' method = 'get'>
+    <label>Full Name : </label>
+    <input type = 'text' name="username">
+    <br>
+    <label>Date of birth : </label>
+    <input type = 'Date' name="DOB">
+    <br>
+    <label>Email address : </label>
+    <input type = 'text' name = 'mail'>
+    <br>
+    <label>Phone Number : </label>
+    <input type = 'text' name="cellno">
+    <br>
+    <button type="submit">Submit</button>
+</form>
+</body>
+</html>
